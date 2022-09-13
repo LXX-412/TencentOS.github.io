@@ -1,3 +1,85 @@
-site_name: My Docs
+site_name: TencentOS Documentation
+repo_url: https://lxx-412.github.io/TencentOS.github.io/
+repo_name: LXX-412/TencetOS.github.io
+edit_uri: edit/main/docs/
+
 theme:
-  name: 'material'
+  name: material
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: zh
+  features:
+    # - announce.dismiss
+    - content.code.annotate
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  logo: assets/logo.svg
+  icon:
+    repo: fontawesome/brands/github
+
+
+plugins:
+  - search
+  - i18n:
+      default_language: zh
+      material_alternate: true
+      languages:
+        zh:
+          name: 中文
+        en:
+          name: English
+      nav_translations:
+        en:
+          首页: Home
+          快速入门: Quick Start
+          下载及安装: Download & Install
+          使用说明: How to Use
+          用户指南: Guide
+          基础配置: Configuation
+          系统管理: System Admin
+          更新: Update
+          系统状态监控: System Monitor
+          安全加固: Security
+          网络管理: Network
+          存储管理: Storage
+          版本说明: Releases
+          常见问题: FAQ
+          如何贡献: Contributing
