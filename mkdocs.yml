@@ -1,6 +1,7 @@
 site_name: TencentOS
 theme:
   name: 'material'
+  language: zh
   features:
     - navigation.tabs
     - navigation.sections
