@@ -6,7 +6,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-
+    - navigation.top
+    - navigation.tracking
 nav:
   - 首页: guide/config.md
   - 快速入门:
