@@ -9,21 +9,21 @@ theme:
 nav:
   - 首页: guide/config.md
   - 快速入门:
-    - 下载及安装:
-    - 使用说明:
-  - 用户指南
-    - 基础配置
-    - 系统管理
-    - 内核更新
-    - 系统状态监控
-    - 安全加固
-    - 网络管理
-    - 存储管理
-    - 兼容硬件
-  - 版本说明
-    - v8.5
-    - v8.6
-    - OpenCloudOS Stream
-    - OpenCloudOS Stream Kernel
-  - 常见问题
-  - 如何贡献
+    - 下载及安装: guide/config.md
+    - 使用说明: guide/config.md
+  - 用户指南:
+    - 基础配置: guide/config.md
+    - 系统管理: guide/config.md
+    - 内核更新: guide/config.md
+    - 系统状态监控: guide/config.md
+    - 安全加固: guide/config.md
+    - 网络管理: guide/config.md
+    - 存储管理: guide/config.md
+    - 兼容硬件: guide/config.md
+  - 版本说明:
+    - v8.5: guide/config.md
+    - v8.6: guide/config.md
+    - OpenCloudOS Stream: guide/config.md
+    - OpenCloudOS Stream Kernel: guide/config.md
+  - 常见问题: guide/config.md
+  - 如何贡献: guide/config.md
