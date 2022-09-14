@@ -6,23 +6,4 @@ theme:
     - navigation.sections
 
 nav:
-  - 首页:
-  - 快速入门:
-    - 下载及安装:
-    - 使用说明:
-  - 用户指南:
-    - 基础配置:
-    - 系统管理:
-    - 内核更新:
-    - 系统状态监控:
-    - 安全加固:
-    - 网络管理:
-    - 存储管理:
-    - 兼容硬件:
-  - 版本说明:
-    - v8.5:
-    - v8.6:
-    - OpenCloudOS Stream:
-    - OpenCloudOS Stream Kernel:
-  - 常见问题:
-  - 如何贡献:
+  - 首页: gudie/config.md
