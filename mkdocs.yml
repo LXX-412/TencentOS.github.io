@@ -2,8 +2,63 @@ site_name: TencentOS
 theme:
   name: 'material'
   features:
-    - navigation.tabs
+  name: material
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: zh
+  features:
+    # - announce.dismiss
+    - content.code.annotate
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
     - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+    palette:
+      - scheme: default
+        primary: indigo
+        accent: indigo
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+      - scheme: slate
+        primary: indigo
+        accent: indigo
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+      font:
+        text: Roboto
+        code: Roboto Mono
+      favicon: assets/favicon.png
+      logo: assets/logo.svg
+      icon:
+        repo: fontawesome/brands/github
+
+    # Extensions
+    markdown_extensions:
+      - pymdownx.superfences
+      - pymdownx.tabbed:
+          alternate_style: true
+      - tables
 
 nav:
-  - 首页: gudie/config.md
+  - 首页: guide/config.md
