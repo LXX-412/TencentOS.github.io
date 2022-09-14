@@ -15,7 +15,7 @@ nav:
     - 基础配置: guide/stroge.md
     - 系统管理: guide/config.md
     - 内核更新: guide/config.md
-    - 系统状态监控: guide/config.md
+    - 系统状态监控: guide/monitor.md
     - 安全加固: guide/config.md
     - 网络管理: guide/config.md
     - 存储管理: guide/config.md
